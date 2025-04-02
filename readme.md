@@ -8,6 +8,31 @@ The AI Expense Tracker MCP (Model Control Protocol) Server is an innovative solu
 - **Predictive Analytics**: Provides spending forecasts and budget recommendations based on historical data
 - **Custom Report Generation**: Creates detailed expense reports with AI-powered insights
 
+## How to run
+
+**Install Node.js.**
+
+**Run npm install in the root directory of the project to install dependencies.**
+
+**Run the tsc command in the root directory to generate JavaScript files in the dist folder.**
+
+**Open the MCP Client Software (excluding Claude) and paste the following form into the configuration file:**
+
+```
+{
+  "mcpServers": { 
+    "expenses-tracker": {
+      "command": "node",
+      "args": [
+        "C:\\path...\\dist\\index.js"
+      ]
+    }
+  }
+}
+```
+
+
+
 ## Technical Overview
 
 The server utilizes state-of-the-art LLM technology to process and analyze expense data. It acts as a bridge between user inputs (receipts, queries, commands) and the AI models, providing a seamless experience for expense management.
