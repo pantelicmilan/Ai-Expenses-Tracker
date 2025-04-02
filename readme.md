@@ -10,13 +10,13 @@ The AI Expense Tracker MCP (Model Control Protocol) Server is an innovative solu
 
 ## How to run
 
-**Install Node.js.**
+**1. Install Node.js.**
 
-**Run npm install in the root directory of the project to install dependencies.**
+**2. Run npm install in the root directory of the project to install dependencies.**
 
-**Run the tsc command in the root directory to generate JavaScript files in the dist folder.**
+**3. Run the tsc command in the root directory to generate JavaScript files in the dist folder.**
 
-**Open the MCP Client Software (excluding Claude) and paste the following form into the configuration file:**
+**4. Open the MCP Client Software (excluding Claude) and paste the following form into the configuration file:**
 
 ```
 {
